@@ -1,0 +1,140 @@
+@import './element-ui.scss';
+@import './transition.scss';
+@import '../iconfont/iconfont.css';
+@import './common.scss';
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    font-weight: normal;
+    font-family: "Microsoft Yahei";
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    &:hover {
+        outline: none;
+    }
+}
+
+
+/*滚动条样式*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="search"],
+input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea {
+    -webkit-appearance: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+// html {
+//     font-size: 62.5%;
+// }
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@keyframes backOpacity {
+    0% {
+        opacity: 1
+    }
+    25% {
+        opacity: .5
+    }
+    50% {
+        opacity: 1
+    }
+    75% {
+        opacity: .5
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.animation_opactiy {
+    animation: backOpacity 2s ease-in-out infinite;
+}
+
+#nprogress .bar {
+    background: #ccc !important; //自定义顶部的加载进度条颜色
+}
+
+#nprogress .spinner {
+    display: none !important; //js配置失效，直接配置css
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}

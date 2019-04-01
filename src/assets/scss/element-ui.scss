@@ -1,0 +1,29 @@
+//覆盖一些element-ui样式
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+    font-weight: 400 !important;
+}
+
+.el-upload {
+    input[type="file"] {
+        display: none !important;
+    }
+}
+
+.el-upload__input {
+    display: none;
+}
+
+.el-menu-vertical:not(.el-menu--collapse) {
+    width: 200px;
+    min-height: 600px;
+}
+
+.el-menu--collapse {
+    min-height: 600px;
+}
+
+.el-table__fixed-right,
+.el-table__fixed {
+    height: 100% !important;
+}
