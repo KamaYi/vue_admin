@@ -1,8 +1,7 @@
 {
     "name": "vue_admin",
-    "version": "1.0.0",
-    "description": "this is vue_admin project",
-    "author": "karmaer",
+    "description": "this is vue project",
+    "author": "karmaer <2981955391@qq.com>",
     "private": true,
     "scripts": {
         "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
