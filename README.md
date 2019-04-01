@@ -51,8 +51,7 @@ npm run server
 
 1.本框架主要是vue+element-ui,封装了常用的组件，如vuex、router、localForage，同时引入了常用的Animate.css、hover.css动画库进行后续的交互；
 
-2.node server作为服务端，mongoose作为数据库，进行全栈的开发(只写了部分接口)
+2.node server作为服务端，mongoose作为数据库，进行全栈的开发(只写了部分接口,对应的mongoose本地需要启动，需要配置的自行百度)
 
-3.自己项目中进行运用，框架的结构目录清晰，没有过多的组件封装，适合初始pc项目的开发
+3.框架的结构目录清晰，没有过多的组件封装，适合初始pc项目的开发
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
