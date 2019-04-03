@@ -1,6 +1,6 @@
 <template>
   <el-col :span="24" class="header">
-    爱房logo
+    logo
     <span @click="handleOpenClose()">操作侧边栏</span>
   </el-col>
 </template>
